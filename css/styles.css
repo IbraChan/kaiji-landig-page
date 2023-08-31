@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: #031326;
+    display: flex;
+    flex: 1;
+}
+.navbar {
+    /* border: 3px solid blue; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 98px;
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    background-color: #031326;
+    color: #FFF7DB;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.logo {
+    margin-right: auto;
+}
+.logoo {
+    width: 190px;
+}
+
+a {
+    text-decoration: none;
+    color:#FFF7DB;
+}
+
+.body {
+    display: flex;
+    flex-basis: 1080px;
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    color: #FFF7DB;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 800px;
+    flex-basis: 700px;
+    background-color: rgb(03, 13, 23, 0.70);
+    border-radius: 50px;
+    box-shadow: #031326 5px 3px 15px;
+    min-width: 0px;
+    flex-shrink: 1;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.divimg {
+    /* border: 5px solid white; */
+    height: 400px;
+    width: 600px;
+}
+
+.bodimg {
+    height: inherit;
+    width: inherit;
+}
+
+.bodycontent a {
+    text-decoration: none;
+    border: 1px solid #FFF7DB;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    background-color: #335D90;
+    color:#FFF7DB;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    height: 1000px;
+    background-color: #031326;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    flex: 1;
+}
+
+.first-box {
+    display: flex;
+    border: 5px dashed silver;
+    width: 1172px;
+    height: 918px;
+    margin-top: 50px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.image {
+    border: 1px solid gold;
+    width: 259px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.content p {
+    color: white;
+    max-width: 200px;
+}
